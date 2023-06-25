@@ -1,0 +1,8 @@
+php artisan cache:clear
+php artisan config:clear
+php artisan route:clear
+php artisan view:clear
+
+npm run build:dev
+
+php artisan serve --host 140.227.81.248 --port 8000
